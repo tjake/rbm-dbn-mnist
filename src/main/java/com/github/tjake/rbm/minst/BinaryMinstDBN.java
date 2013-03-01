@@ -141,7 +141,7 @@ public class BinaryMinstDBN {
 
             float[] labeld = new float[10];
 
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 1; i++) {
                 Tuple t = it.next();
 
                 for (int j = (t.visible.size() - 10), k = 0; j < t.visible.size() && k < 10; j++, k++) {
