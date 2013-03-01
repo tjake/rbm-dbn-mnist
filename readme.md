@@ -37,7 +37,7 @@ Trains a single RBM with 100 hidden nodes.  Each of the hidden nodes weights are
 
 4. java -jar target/rbm-dbn-mnist-0.0.1.jar dbn target/minst/train-labels-idx1-ubyte.gz target/minst/train-images-idx3-ubyte.gz /tmp/dbn.bin
 
-Trains a Deep Belief Network made up of three RBMs.  It learns to match pictures of digits with their corresponding label. It takes about 10m to train but once it's done it has ~90% accuracy rate.  The trained DBN is saved to a file.
+Trains a Deep Belief Network made up of three RBMs.  It learns to match pictures of digits with their corresponding label. It takes about 10m to train but once it's done it has ~95% accuracy rate.  The trained DBN is saved to a file.
 
 5. java -jar target/rbm-dbn-mnist-0.0.1.jar gen /tmp/dbn.bin
 
